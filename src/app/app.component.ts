@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title =
-    'Adersh S L - Digital Resume | Angular Developer | JavaScript Developer';
+    'Sankarkumar Shanmugagani - Digital Resume | Cloud/DevOps Architect';
 }

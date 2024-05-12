@@ -6,10 +6,10 @@ export const ProfileImage = {
 };
 
 export const IntroData = {
-  name: 'Adersh S L',
+  name: 'Sankarkumar Shanmugagani',
   headline:
-    'Angular Developer | JavaScript Developer | Frontend Developer | Software Engineer',
-  mail: 'iamadershsl@gmail.com',
+    'Cloud/DevOps Architect | Python Software Engineer',
+  mail: 'kumaran.online@live.com',
   copiedText: 'Copied',
 };
 
@@ -18,10 +18,10 @@ export const IntroData = {
 export const ProfileData = {
   heading: 'Professional Profile',
   data: [
-    'Frontend developer with two plus years of experience in developing web applications using Angular and JavaScript.',
-    'Skilled in designing and implementing software solutions, troubleshooting, and testing code.',
-    'Interested to work in both front-end and full stack projects using Angular and MEAN stack.',
-    'Seeking a challenging role in a dynamic organization where I can apply my skills and contribute to the growth of the company.',
+    'Professional level Cloud/DevOps architect with Software Engg. - 19 years of IT experience - DataCenter => Cloud Migration, DevOps, SRE',
+    'Multi-skilled in various stacks AWS, Azure, Kubernetes, Terraform, Packer, Vault, Gitlab, Cloud Security, Networking, HPC, ITIL, Scrum, SDLC',
+    'Have a very good experience in Identity Services & Backend Python development',
+    'Seeking a challenging role in a dynamic organization where I can apply my skills and grow along with the company & team',
   ],
 };
 
@@ -81,17 +81,13 @@ export const EducationData = {
       ],
     },
     {
-      degree: 'B Tech in Computer Science and Engineering',
-      date: 'August 2016 - May 2020',
-      college: 'College of Engineering, Kottarakkara',
-      university: 'APJ Abdul Kalam Technological University',
-      location: 'Kerala, India',
+      degree: 'B Tech in Electronics & Instrumentation Engineering',
+      date: 'Jun 2000 - May 2004',
+      college: 'Shanmugha College of Engineering',
+      university: 'Bharathidasan University',
+      location: 'Thanjavur, TamilNadu, India',
       points: [
-        'CGPA: 7.83 / 10',
-        'Did final year project on Inventory Management System tentatively named MyNear using ASP.NET, C#, Angular and Python.',
-        'Organized Inspiro 2018, IEEE Hub level technical Event',
-        'Coordinator at IEDC Student Cell (August 2018 - May 2020).',
-        'Treasurer at IEEE Student Branch (August 2017 - March 2018).',
+        'Aggregate: 79%'
       ],
     },
   ],
@@ -99,6 +95,6 @@ export const EducationData = {
 
 // Footer Component
 export const FooterData = {
-  info: 'Adersh S L - Digital Resume',
-  version: 'v2.0',
+  info: 'Sankarkumar Shanmugagani - Digital Resume',
+  version: 'v1.0',
 };
