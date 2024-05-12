@@ -47,6 +47,20 @@ export const WorkData = {
   heading: 'Work Experience',
   data: [
     {
+      role: 'Cloud Architect',
+      date: 'May, 2019 - Present',
+      company: 'Acadian Asset Management',
+      location: 'Boston, MA USA',
+      works: [
+        'Worked as an Angular developer on the GE HealthCare project entitled Digitized Problem-Solving Report (dPSR).',
+        'Implemented a single-page application (SPA) using Angular 10, TypeScript, JavaScript, and SASS.',
+        "Integrated various libraries such as Intro.js, NgBootstrap, Chart.js, Ng-Multiselect Dropdown, Ng2-Charts, etc., to enhance the application's functionality.",
+        'Implemented the application tour functionality using Intro.js, resulting in improved usability.',
+        'Collaborated with the development team to design and implement software solutions to meet business requirements.',
+        'Conducted testing, troubleshooting, and debugging of code issues to ensure high-quality deliverables.',
+      ],
+    },
+    {
       role: 'Angular Developer | Frontend Developer | Assistant System Engineer',
       date: 'October 2020 - August 2022',
       company: 'TATA Consultancy Services',
@@ -60,6 +74,20 @@ export const WorkData = {
         'Conducted testing, troubleshooting, and debugging of code issues to ensure high-quality deliverables.',
       ],
     },
+    {
+      role: 'Angular Developer | Frontend Developer | Assistant System Engineer',
+      date: 'October 2020 - August 2022',
+      company: 'TATA Consultancy Services',
+      location: 'Kochi, Kerala, India',
+      works: [
+        'Worked as an Angular developer on the GE HealthCare project entitled Digitized Problem-Solving Report (dPSR).',
+        'Implemented a single-page application (SPA) using Angular 10, TypeScript, JavaScript, and SASS.',
+        "Integrated various libraries such as Intro.js, NgBootstrap, Chart.js, Ng-Multiselect Dropdown, Ng2-Charts, etc., to enhance the application's functionality.",
+        'Implemented the application tour functionality using Intro.js, resulting in improved usability.',
+        'Collaborated with the development team to design and implement software solutions to meet business requirements.',
+        'Conducted testing, troubleshooting, and debugging of code issues to ensure high-quality deliverables.',
+      ],
+    },        
   ],
 };
 
@@ -68,18 +96,6 @@ export const WorkData = {
 export const EducationData = {
   heading: 'Education',
   data: [
-    {
-      degree: 'MS in AI and Automation',
-      date: 'August 2022 - Present',
-      college: 'University West',
-      university: '',
-      location: 'Trollhättan, Sweden',
-      points: [
-        '30 credits completed',
-        'Completed mini-project using OpenCV and Python.',
-        'Completed mini-project in Deep Learning.',
-      ],
-    },
     {
       degree: 'B Tech in Electronics & Instrumentation Engineering',
       date: 'Jun 2000 - May 2004',
