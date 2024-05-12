@@ -37,25 +37,20 @@ export class IntroComponent implements OnInit {
   darkTheme: boolean = true;
   showInfo: boolean = false;
   socialLinks: Links[] = [
-    // {
-    //   icon: faGlobe,
-    //   text: 'sladersh.github.io',
-    //   link: 'https://sladersh.github.io/',
-    // },
     {
       icon: faLinkedin,
-      text: 'sladersh',
-      link: 'https://www.linkedin.com/in/sladersh/',
+      text: 'SK-LinkedIn',
+      link: 'https://www.linkedin.com/in/sankarkumar-s-ab3ba444/',
     },
     {
       icon: faGithub,
-      text: 'sladersh',
-      link: 'https://github.com/sladersh',
+      text: 'SK-Github',
+      link: 'https://github.com/gearheadsk',
     },
     {
       icon: faFileContract,
-      text: 'Download Resume',
-      link: 'https://www.dropbox.com/s/5y2xhnxo7bkimcv/Adersh_Resume.pdf?dl=1',
+      text: 'SK-Profile',
+      link: 'https://drive.google.com/file/d/11n1eWLcUf3lASe825k8leKVKlgBnCEn6/view?usp=sharing',
     },
   ];
 
