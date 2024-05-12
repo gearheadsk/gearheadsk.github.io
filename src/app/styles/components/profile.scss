@@ -1,0 +1,39 @@
+@use "../index" as *;
+
+.profile-container {
+  width: min(46rem, 96vw);
+  margin-top: 2rem;
+  border: 0.1rem solid var(--secondary-bg);
+
+  .acc-btn {
+    @include accordion-toggle;
+
+    .main-heading {
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-size: 1rem;
+      @include heading-color;
+    }
+
+    .toggle {
+      @include toggle-icon;
+      @include heading-color;
+    }
+  }
+
+  .profile-data {
+    margin: 1rem 0.5rem;
+
+    ul.list {
+      list-style: none;
+
+      li {
+        margin-bottom: 0.5rem;
+
+        .fa-circle-check {
+          color: var(--primary-accent);
+        }
+      }
+    }
+  }
+}

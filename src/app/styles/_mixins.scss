@@ -1,0 +1,45 @@
+@use "../styles/variables" as *;
+
+@mixin light-theme {
+  --text-color: #{$lightText};
+  --heading-color: #{$lightHeading};
+  --primary-bg: #{$lightPrimaryBg};
+  --secondary-bg: #{$lightSecondaryBg};
+  --primary-accent: #{$lightPrimaryAccent};
+}
+
+@mixin dark-theme {
+  --text-color: #{$darkText};
+  --heading-color: #{$darkHeading};
+  --primary-bg: #{$darkPrimaryBg};
+  --secondary-bg: #{$darkSecondaryBg};
+  --primary-accent: #{$darkPrimaryAccent};
+}
+
+@mixin heading-color {
+  color: var(--heading-color);
+}
+
+@mixin text-color {
+  color: var(--text-color);
+}
+
+@mixin toggle-icon {
+  background: var(--secondary-bg);
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+@mixin accordion-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: var(--secondary-bg);
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

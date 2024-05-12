@@ -1,0 +1,37 @@
+<section class="skills-container">
+  <ngb-accordion #accConf="ngbAccordion" activeIds="open-skills">
+    <ngb-panel id="open-skills">
+      <ng-template ngbPanelHeader>
+        <button
+          ngbPanelToggle
+          class="accordion-button acc-btn"
+          (click)="isExpanded()"
+        >
+          <h2 class="main-heading">{{ skillsData.heading }}</h2>
+          <button class="toggle">
+            <fa-icon [icon]="faAngleUp" *ngIf="!isCollapsed"></fa-icon>
+            <fa-icon [icon]="faAngleDown" *ngIf="isCollapsed"></fa-icon>
+          </button>
+        </button>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        <div class="skills-data">
+          <ng-container *ngFor="let skill of skills">
+            <div class="skill">
+              <fa-icon [icon]="skill.icon"></fa-icon>
+              <span>{{ skill.text }}</span>
+            </div>
+          </ng-container>
+        </div>
+        <div class="skills-detailed">
+          <ul class="list">
+            <li *ngFor="let data of skillsData.data">
+              <fa-icon [icon]="faCircleCheck"></fa-icon>
+              {{ data }}
+            </li>
+          </ul>
+        </div>
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+</section>

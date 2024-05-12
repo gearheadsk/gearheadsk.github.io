@@ -1,0 +1,87 @@
+@use "../index" as *;
+
+.education-container {
+  width: min(46rem, 96vw);
+  margin-top: 2rem;
+  border: 0.1rem solid var(--secondary-bg);
+
+  .acc-btn {
+    @include accordion-toggle;
+
+    .main-heading {
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-size: 1rem;
+      @include heading-color;
+    }
+
+    .toggle {
+      @include toggle-icon;
+      @include heading-color;
+    }
+  }
+
+  .education-data {
+    margin: 1rem 0.5rem;
+
+    .education {
+      margin-bottom: 2rem;
+      border-bottom: 0.1rem solid var(--secondary-bg);
+
+      &:last-child {
+        margin-bottom: 0;
+        border-bottom: none;
+      }
+
+      .degree {
+        display: flex;
+        font-size: 1.1rem;
+        font-weight: 600;
+
+        .fa-graduation-cap {
+          color: var(--primary-accent);
+          margin-right: 0.5rem;
+        }
+      }
+
+      .date {
+        font-size: 0.8rem;
+        margin-top: 0.4rem;
+      }
+
+      .college {
+        font-size: 1rem;
+        margin-top: 0.4rem;
+        font-weight: 600;
+      }
+
+      .university {
+        font-size: 1rem;
+        margin-top: 0.4rem;
+      }
+
+      .location {
+        font-size: 0.9rem;
+        margin-top: 0.4rem;
+      }
+    }
+
+    ul.education-list {
+      list-style: none;
+      margin: 1.5rem 0;
+
+      li {
+        margin-bottom: 0.5rem;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+
+        .fa-circle {
+          font-size: 0.5rem;
+          margin-right: 0.2rem;
+        }
+      }
+    }
+  }
+}

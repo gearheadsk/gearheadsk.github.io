@@ -1,0 +1,59 @@
+@use "../index" as *;
+
+.skills-container {
+  width: min(46rem, 96vw);
+  margin-top: 2rem;
+  border: 0.1rem solid var(--secondary-bg);
+
+  .acc-btn {
+    @include accordion-toggle;
+
+    .main-heading {
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-size: 1rem;
+      @include heading-color;
+    }
+
+    .toggle {
+      @include toggle-icon;
+      @include heading-color;
+    }
+  }
+
+  .skills-data {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+
+    .skill {
+      background: var(--secondary-bg);
+      padding: 0.5rem;
+      text-decoration: none;
+      color: var(--text-color);
+      border-radius: 0.3rem;
+      margin-right: 1rem;
+      margin-bottom: 0.5rem;
+
+      span {
+        margin-left: 0.4rem;
+      }
+    }
+  }
+
+  .skills-detailed {
+    margin: 1rem 0.5rem;
+
+    ul.list {
+      list-style: none;
+
+      li {
+        margin-bottom: 0.5rem;
+
+        .fa-circle-check {
+          color: var(--primary-accent);
+        }
+      }
+    }
+  }
+}

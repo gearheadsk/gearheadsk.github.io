@@ -1,0 +1,29 @@
+<section class="profile-container">
+  <ngb-accordion #accConf="ngbAccordion" activeIds="open-profile">
+    <ngb-panel id="open-profile">
+      <ng-template ngbPanelHeader>
+        <button
+          ngbPanelToggle
+          class="accordion-button acc-btn"
+          (click)="isExpanded()"
+        >
+          <h2 class="main-heading">{{ profileData.heading }}</h2>
+          <button class="toggle">
+            <fa-icon [icon]="faAngleUp" *ngIf="!isCollapsed"></fa-icon>
+            <fa-icon [icon]="faAngleDown" *ngIf="isCollapsed"></fa-icon>
+          </button>
+        </button>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        <div class="profile-data">
+          <ul class="list">
+            <li *ngFor="let data of profileData.data">
+              <fa-icon [icon]="faCircleCheck"></fa-icon>
+              {{ data }}
+            </li>
+          </ul>
+        </div>
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+</section>

@@ -1,0 +1,157 @@
+@use "../index" as *;
+
+.intro-container {
+  width: min(46rem, 96vw);
+  margin-top: 3rem;
+
+  .bio {
+    display: flex;
+    align-items: center;
+
+    img.profile-pic {
+      max-width: 10rem;
+      height: auto;
+      border-radius: 50%;
+      border: 0.2rem solid var(--primary-accent);
+      padding: 0.2rem;
+    }
+
+    .intro {
+      margin-left: 2rem;
+
+      .heading {
+        display: flex;
+        align-items: center;
+
+        h1.name {
+          text-transform: uppercase;
+          font-size: 2.5rem;
+          font-weight: 700;
+          letter-spacing: 0.2rem;
+          @include heading-color;
+        }
+
+        .toggle-theme {
+          @include toggle-icon;
+          width: 1.8rem;
+          height: 1.8rem;
+          margin-left: 1rem;
+          font-size: 1.2rem;
+
+          .fa-moon {
+            color: #74c0fc;
+          }
+
+          .fa-sun {
+            color: #f39c12;
+          }
+        }
+      }
+
+      .headline {
+        margin-top: 1rem;
+        @include text-color;
+      }
+
+      .mail {
+        display: flex;
+        margin-top: 1rem;
+        color: var(--heading-color);
+
+        span.mail-id {
+          margin-left: 0.5rem;
+          font-weight: bold;
+
+          a {
+            color: var(--heading-color);
+            text-decoration: none;
+          }
+        }
+
+        .copy-icon {
+          @include toggle-icon;
+          width: 1.4rem;
+          height: 1.4rem;
+          margin-left: 0.6rem;
+          color: var(--text-color);
+
+          .fa-clipboard {
+            font-size: 0.9rem;
+          }
+
+          &:hover {
+            color: var(--primary-accent);
+          }
+        }
+
+        .copied-info {
+          background: var(--secondary-bg);
+          border-radius: 0.3rem;
+          color: var(--primary-accent);
+          padding: 0.1rem;
+          margin-left: 0.2rem;
+        }
+      }
+    }
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    .link {
+      background: var(--secondary-bg);
+      padding: 0.5rem;
+      text-decoration: none;
+      color: var(--text-color);
+      border-radius: 0.3rem;
+
+      &:hover {
+        color: var(--primary-accent);
+      }
+
+      span {
+        margin-left: 0.4rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro-container {
+    .bio {
+      display: flex;
+      flex-direction: column;
+
+      .intro {
+        margin-left: 0;
+
+        .heading {
+          display: flex;
+          justify-content: center;
+          margin-top: 1rem;
+
+          h1.name {
+            font-size: 2rem;
+          }
+        }
+
+        .headline {
+          text-align: justify;
+        }
+      }
+    }
+
+    .links {
+      display: flex;
+      justify-content: unset;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+
+      .link {
+        margin: 0 1rem 0.5rem 0;
+      }
+    }
+  }
+}
