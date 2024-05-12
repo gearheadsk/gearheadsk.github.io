@@ -83,10 +83,10 @@ export const WorkData = {
       ],
     },
     {
-      role: 'Angular Developer | Frontend Developer | Assistant System Engineer',
-      date: 'October 2020 - August 2022',
-      company: 'TATA Consultancy Services',
-      location: 'Kochi, Kerala, India',
+      role: 'Senior Lead Engineer',
+      date: 'Oct, 2016 - Apr, 2018',
+      company: 'HID Global',
+      location: 'Chennai, TN, India',
       works: [
         'Worked as an Angular developer on the GE HealthCare project entitled Digitized Problem-Solving Report (dPSR).',
         'Implemented a single-page application (SPA) using Angular 10, TypeScript, JavaScript, and SASS.',
@@ -96,6 +96,48 @@ export const WorkData = {
         'Conducted testing, troubleshooting, and debugging of code issues to ensure high-quality deliverables.',
       ],
     },        
+    {
+      role: 'Automation Consultant',
+      date: 'Aug, 2016 - Oct, 2016',
+      company: 'Hewlett Packard Enterprise',
+      location: 'Bengaluru, KA, India',
+      works: [
+        'Worked as an Angular developer on the GE HealthCare project entitled Digitized Problem-Solving Report (dPSR).',
+        'Implemented a single-page application (SPA) using Angular 10, TypeScript, JavaScript, and SASS.',
+        "Integrated various libraries such as Intro.js, NgBootstrap, Chart.js, Ng-Multiselect Dropdown, Ng2-Charts, etc., to enhance the application's functionality.",
+        'Implemented the application tour functionality using Intro.js, resulting in improved usability.',
+        'Collaborated with the development team to design and implement software solutions to meet business requirements.',
+        'Conducted testing, troubleshooting, and debugging of code issues to ensure high-quality deliverables.',
+      ],
+    },        
+    {
+      role: 'Architect',
+      date: 'Sep, 2011 - Aug, 2016',
+      company: 'Verizon',
+      location: 'Chennai, TN, India',
+      works: [
+        'Worked as an Angular developer on the GE HealthCare project entitled Digitized Problem-Solving Report (dPSR).',
+        'Implemented a single-page application (SPA) using Angular 10, TypeScript, JavaScript, and SASS.',
+        "Integrated various libraries such as Intro.js, NgBootstrap, Chart.js, Ng-Multiselect Dropdown, Ng2-Charts, etc., to enhance the application's functionality.",
+        'Implemented the application tour functionality using Intro.js, resulting in improved usability.',
+        'Collaborated with the development team to design and implement software solutions to meet business requirements.',
+        'Conducted testing, troubleshooting, and debugging of code issues to ensure high-quality deliverables.',
+      ],
+    },               
+    {
+      role: 'IT Analyst',
+      date: 'Apr, 2005 - Sep, 2011',
+      company: 'Tata Consultancy Services',
+      location: 'Chennai, TN, India',
+      works: [
+        'Worked as an Angular developer on the GE HealthCare project entitled Digitized Problem-Solving Report (dPSR).',
+        'Implemented a single-page application (SPA) using Angular 10, TypeScript, JavaScript, and SASS.',
+        "Integrated various libraries such as Intro.js, NgBootstrap, Chart.js, Ng-Multiselect Dropdown, Ng2-Charts, etc., to enhance the application's functionality.",
+        'Implemented the application tour functionality using Intro.js, resulting in improved usability.',
+        'Collaborated with the development team to design and implement software solutions to meet business requirements.',
+        'Conducted testing, troubleshooting, and debugging of code issues to ensure high-quality deliverables.',
+      ],
+    },             
   ],
 };
 
