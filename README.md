@@ -1,4 +1,4 @@
-# Digital Resume - Adersh S L
+# Digital Resume - Sankarkumar Shanmugagani
 
 Developed using Angular 14
 
