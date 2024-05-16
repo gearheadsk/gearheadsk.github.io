@@ -69,9 +69,7 @@
   /* main */
   
   /** big title **/
-  #title, h1, h2{
-    text-transform: uppercase;
-  }
+
   
   #title{
     position: relative;
@@ -81,9 +79,12 @@
   }
   
   #title h1{
+    font-family: "Times New Roman", Times, serif;
+    color: orange;
     font-weight: 300;
     font-size: 18pt;
     line-height: 1.5;
+    font-style: italic;
   }
   
   #title h1 strong{
@@ -93,6 +94,7 @@
   
   .subtitle{
     font-size: 8pt;
+    font-weight: bold;
   }
   
   /*** categorial blocks ***/
@@ -260,6 +262,8 @@
   .details .place{
     float: left;
     font-size: 7.5pt;
+    font-weight: bold;
+    font-style: italic;
   }
   
   .details .location{
